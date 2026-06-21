@@ -6,9 +6,9 @@
   "author": "Ngoc Dao",
   "type": "commonjs",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "start": "nodemon server.js"
+},
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
+    "nodemon": "^3.1.14",
     "prettier": "^3.8.4"
   }
 }
